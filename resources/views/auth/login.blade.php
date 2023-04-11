@@ -28,7 +28,6 @@
                         <form class="text-left mt-5" action="{{ route('login') }}" method="POST">
                             @csrf
                             <div class="form" >
-                                @csrf
                                     <div id="username-field" class="field-wrapper input">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
                                     <input id="email" name="email" type="email" class="form-control @error('email') is-invalid @enderror" placeholder="Correo Electrónico" value="{{ old('email') }}" required autocomplete="email" autofocus>
@@ -38,7 +37,6 @@
                                     </span>
                                     @enderror
                                 </div>
-
                                 <div id="password-field" class="field-wrapper input mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
                                     <input id="password" name="password" type="password" class="form-control @error('password') is-invalid @enderror" placeholder="Contraseña" required autocomplete="current-password">
@@ -62,7 +60,6 @@
                                 <div class="field-wrapper">
                                     <button type="submit" class="btn btn-dark btn-block" value="">Ingresar</button>
                                 </div>
-
                            <!--  </div> -->
 <!--
                                 <div class="field-wrapper text-center keep-logged-in">
@@ -81,7 +78,6 @@
                         </div>
                     </form>
                     <p class="terms-conditions text-center">© 2022 All Rights Reserved. <a target="_blank">echumila</a> <br>versión 1.0 </p>
-
                 </div>
             </div>
         </div>

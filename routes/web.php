@@ -16,8 +16,6 @@ use App\Http\Livewire\ProductsController;
 use App\Http\Controllers\ExportController;
 use App\Http\Livewire\CategoriesController;
 
-
-
 Route::redirect('/','login');
 
 //Route::get('/', function () {

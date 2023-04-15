@@ -10,6 +10,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.6/jspdf.plugin.autotable.min.js"></script>
 
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     @include('layouts.theme.styles')
     <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->

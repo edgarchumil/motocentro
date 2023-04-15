@@ -50,7 +50,7 @@
                                 </svg> <span>Salir</span>
                             </a>
                             <form action="{{ route('logout') }}" method="POST" id="logout-form">
-                                @csrf
+                            @csrf
                             </form>
                         </div>
                     </div>

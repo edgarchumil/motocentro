@@ -20,18 +20,18 @@ class UserSeeder extends Seeder
         User::create([
             'name' => 'Edgar Chumil',
             'phone' => '58501360',
-            'email' => 'edgarcha91@gmail.com',
+            'email' => 'jossecarlos2378@gmail.com',
             'profile' => 'ADMIN',
             'status' => 'ACTIVE',
-            'password' => bcrypt('Chumil2020')
+            'password' => bcrypt('Jose22232003')
         ]);
         User::create([
-            'name' => 'Isabel Girón',
+            'name' => 'victorferlux95@gmail.com',
             'phone' => '12345678',
             'email' => 'isa20@gmail.com',
             'profile' => 'EMPLOYEE',
             'status' => 'ACTIVE',
-            'password' => bcrypt('123')
+            'password' => bcrypt('Motosanjose95')
         ]);
 
         // crear role Administrador
